@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-24T13:11:57 AEST" name="Suite" finished-at="2023-06-24T13:14:34 AEST" duration-ms="156728">
+  <suite started-at="2023-06-24T21:33:44 AEST" name="Suite" finished-at="2023-06-24T21:35:15 AEST" duration-ms="90954">
     <groups>
     </groups>
-    <test started-at="2023-06-24T13:11:57 AEST" name="Test" finished-at="2023-06-24T13:14:34 AEST" duration-ms="156728">
+    <test started-at="2023-06-24T21:33:44 AEST" name="Test" finished-at="2023-06-24T21:35:15 AEST" duration-ms="90954">
       <class name="tests.BookStoreTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:11:58 AEST" name="setUp" finished-at="2023-06-24T13:13:22 AEST" duration-ms="84476" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:33:44 AEST" name="setUp" finished-at="2023-06-24T21:34:30 AEST" duration-ms="46087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="brokenLinkVerification()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:13:22 AEST" name="brokenLinkVerification" finished-at="2023-06-24T13:13:33 AEST" duration-ms="11163" status="PASS">
+        <test-method signature="brokenLinkVerification()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:34:30 AEST" name="brokenLinkVerification" finished-at="2023-06-24T21:34:41 AEST" duration-ms="10248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenLinkVerification -->
-        <test-method is-config="true" signature="closingMethod()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:13:33 AEST" name="closingMethod" finished-at="2023-06-24T13:13:39 AEST" duration-ms="5312" status="PASS">
+        <test-method is-config="true" signature="closingMethod()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:34:41 AEST" name="closingMethod" finished-at="2023-06-24T21:34:44 AEST" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:13:39 AEST" name="setUp" finished-at="2023-06-24T13:14:27 AEST" duration-ms="48416" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:34:44 AEST" name="setUp" finished-at="2023-06-24T21:35:13 AEST" duration-ms="29703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="webtableSortTitleVerification()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:14:27 AEST" name="webtableSortTitleVerification" finished-at="2023-06-24T13:14:28 AEST" duration-ms="1177" status="FAIL">
+        <test-method signature="webtableSortTitleVerification()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:35:13 AEST" name="webtableSortTitleVerification" finished-at="2023-06-24T21:35:14 AEST" duration-ms="756" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -34,7 +34,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at tests.BookStoreTest.webtableSortTitleVerification(BookStoreTest.java:90)
+at tests.BookStoreTest.webtableSortTitleVerification(BookStoreTest.java:96)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webtableSortTitleVerification -->
-        <test-method is-config="true" signature="closingMethod()[pri:0, instance:tests.BookStoreTest@63fbfaeb]" started-at="2023-06-24T13:14:31 AEST" name="closingMethod" finished-at="2023-06-24T13:14:34 AEST" duration-ms="2937" status="PASS">
+        <test-method is-config="true" signature="closingMethod()[pri:0, instance:tests.BookStoreTest@2bd08376]" started-at="2023-06-24T21:35:15 AEST" name="closingMethod" finished-at="2023-06-24T21:35:15 AEST" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingMethod -->

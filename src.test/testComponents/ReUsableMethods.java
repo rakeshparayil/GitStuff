@@ -31,7 +31,7 @@ public class ReUsableMethods {
 		driver.findElement(By.xpath("//input[@id='userName']")).sendKeys("sas");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Rideca@1");
 		
-		//run javascript code
+		//run javascript code to scroll down
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,400)");
 		

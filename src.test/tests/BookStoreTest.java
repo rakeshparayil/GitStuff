@@ -23,13 +23,19 @@ public class BookStoreTest extends ReUsableMethods {
 	{
 
 		// asserting if any links below title is broken
+		
+		//Collect all links into a list of Webelement
 		List<WebElement> links = driver.findElements(By.cssSelector("a[href*='/books']"));
 		System.out.println("Total links equals" + " " + links.size());
 
 		SoftAssert a = new SoftAssert();
 
 		for (WebElement e : links) {
+			
+			//In href attibute the value will be same as the link to the books page
 			String url = e.getAttribute("href");
+			
+			//Create object of URL class to access its method whose return type is URLConnection
 			HttpURLConnection httpUrlConnection = (HttpURLConnection) new URL(url).openConnection();
 			httpUrlConnection.connect();
 			int responseCode = httpUrlConnection.getResponseCode();
