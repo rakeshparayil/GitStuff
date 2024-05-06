@@ -35,6 +35,15 @@ public class GitTest {
 		
 		
 	}
+	@Test
+	public void JavaScript()
+	{
+		System.out.println("JavaScript1");
+		System.out.println("JavaScript2");
+		System.out.println("JavaScript3");
+		
+		
+	}
 
 
 }
